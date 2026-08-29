@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "genre": "ポケモンの名前",
+    "question": "ピカチョウ",
+    "reading": "ピカチョウ",
+    "answerReading": "ピカチュウ",
+    "extraChar": "オ"
+  },
+  {
+    "id": 2,
+    "genre": "ポケモンの技名",
+    "question": "１０万ボルトト",
+    "reading": "ジュウマンボルトト",
+    "answerReading": "ジュウマンボルト",
+    "extraChar": "ト"
+  },
+  {
+    "id": 3,
+    "genre": "ノンジャンル",
+    "question": "サンプル問題",
+    "reading": "サンプルモンダイ",
+    "answerReading": "サンプルモンダイ",
+    "extraChar": "ア"
+  }
+]

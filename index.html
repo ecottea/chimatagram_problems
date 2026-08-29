@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チマタグラムクイズ</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 20px auto; padding: 0 10px; }
+    .card { border: 1px solid #ccc; padding: 20px; border-radius: 8px; margin-bottom: 15px; }
+    .hidden { display: none; }
+    .control-panel { margin-bottom: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .rule-box { background: #f9f9f9; border-left: 4px solid #007bff; padding: 10px 15px; margin-bottom: 20px; font-size: 0.95em; line-height: 1.5; }
+    button { padding: 8px 16px; cursor: pointer; }
+    select, input { padding: 6px; }
+  </style>
+</head>
+<body>
+
+  <h2>チマタグラムクイズ</h2>
+
+  <!-- ルール説明エリア -->
+  <div class="rule-box">
+    文字を並べ替えて指定されたジャンルの言葉にしてください。<br>
+    ただし<strong>余計な文字が1文字</strong>含まれています。
+  </div>
+
+  <div class="control-panel">
+    <label>
+      ジャンル選択:
+      <select id="genreSelect">
+        <option value="data/non_genre.json">ノンジャンル</option>
+        <option value="data/pokemon_names.json">ポケモンの名前</option>
+        <option value="data/pokemon_moves.json">ポケモンの技</option>
+        <option value="data/pokemon_abilities.json">ポケモンの特性</option>
+      </select>
+    </label>
+
+    <label>
+      問題番号:
+      <input type="number" id="problemInput" min="1" style="width: 65px;">
+      <button id="goBtn">移動</button>
+    </label>
+  </div>
+
+  <div class="card">
+    <h3><span id="problemNum">第 1 問</span> / <span id="totalNum">全 0 問</span></h3>
+    
+    <!-- 「問題」の上に「ジャンル」を表示 -->
+    <p><strong>ジャンル:</strong> <span id="genreText">読み込み中...</span></p>
+    <p><strong>問題:</strong> <span id="questionText">読み込み中...</span></p>
+    <p><strong>読み:</strong> <span id="readingText">読み込み中...</span></p>
+
+    <button id="showAnswerBtn">答えを見る</button>
+
+    <div id="answerArea" class="hidden" style="margin-top: 15px; background: #f0f0f0; padding: 10px; border-radius: 4px;">
+      <!-- 「答えの読み」の上に「答え」を表示 -->
+      <p><strong>答え:</strong> <span id="answerText"></span></p>
+      <p><strong>答えの読み:</strong> <span id="answerReadingText"></span></p>
+      <p><strong>余計な1文字:</strong> <span id="extraCharText"></span></p>
+    </div>
+  </div>
+
+  <button id="nextBtn">次へ</button>
+
+  <script>
+    const cache = {};
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let currentGenrePath = "";
+
+    async function init() {
+      const select = document.getElementById('genreSelect');
+      
+      select.addEventListener('change', (e) => {
+        loadGenre(e.target.value);
+      });
+
+      loadGenre(select.value);
+    }
+
+    async function loadGenre(filePath) {
+      currentGenrePath = filePath;
+
+      if (!cache[filePath]) {
+        try {
+          const response = await fetch(filePath);
+          if (!response.ok) throw new Error('File not found');
+          cache[filePath] = await response.json();
+        } catch (e) {
+          alert(`データファイル (${filePath}) の読み込みに失敗しました。`);
+          clearDisplay();
+          return;
+        }
+      }
+
+      currentQuestions = cache[filePath];
+      const totalCount = currentQuestions.length;
+      document.getElementById('totalNum').textContent = `全 ${totalCount} 問`;
+
+      if (totalCount === 0) {
+        clearDisplay();
+        return;
+      }
+
+      const savedIndex = localStorage.getItem(`chimatagram_progress_${filePath}`);
+      if (savedIndex !== null && parseInt(savedIndex, 10) < totalCount) {
+        currentIndex = parseInt(savedIndex, 10);
+      } else {
+        currentIndex = 0;
+      }
+
+      showQuestion(currentIndex);
+    }
+
+    function showQuestion(index) {
+      if (index < 0 || index >= currentQuestions.length) return;
+
+      currentIndex = index;
+      const q = currentQuestions[currentIndex];
+
+      document.getElementById('problemNum').textContent = `第 ${currentIndex + 1} 問`;
+      document.getElementById('genreText').textContent = q.genre || '-';
+      document.getElementById('questionText').textContent = q.question;
+      document.getElementById('readingText').textContent = q.reading;
+      
+      document.getElementById('answerText').textContent = q.answer || '-';
+      document.getElementById('answerReadingText').textContent = q.answerReading;
+      document.getElementById('extraCharText').textContent = q.extraChar;
+
+      document.getElementById('answerArea').classList.add('hidden');
+      document.getElementById('problemInput').value = currentIndex + 1;
+      document.getElementById('problemInput').max = currentQuestions.length;
+
+      localStorage.setItem(`chimatagram_progress_${currentGenrePath}`, currentIndex);
+    }
+
+    function clearDisplay() {
+      document.getElementById('problemNum').textContent = "第 - 問";
+      document.getElementById('totalNum').textContent = "全 0 問";
+      document.getElementById('genreText').textContent = "-";
+      document.getElementById('questionText').textContent = "-";
+      document.getElementById('readingText').textContent = "-";
+      document.getElementById('answerArea').classList.add('hidden');
+    }
+
+    document.getElementById('showAnswerBtn').addEventListener('click', () => {
+      document.getElementById('answerArea').classList.remove('hidden');
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      if (currentIndex + 1 < currentQuestions.length) {
+        showQuestion(currentIndex + 1);
+      } else {
+        alert('このジャンルの問題は以上です！');
+      }
+    });
+
+    document.getElementById('goBtn').addEventListener('click', () => {
+      const inputVal = parseInt(document.getElementById('problemInput').value, 10);
+      if (!isNaN(inputVal) && inputVal >= 1 && inputVal <= currentQuestions.length) {
+        showQuestion(inputVal - 1);
+      } else {
+        alert(`1 〜 ${currentQuestions.length} の範囲で指定してください。`);
+      }
+    });
+
+    init();
+  </script>
+</body>
+</html>

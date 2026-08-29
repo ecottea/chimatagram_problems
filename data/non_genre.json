@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "genre": "ポケモンの名前",
+    "question": "ピカチョウ",
+    "reading": "ピカチョウ",
+    "answer": "ピカチュウ",
+    "answerReading": "ピカチュウ",
+    "extraChar": "オ"
+  }
+]
