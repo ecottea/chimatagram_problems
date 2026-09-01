@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>チマタグラムクイズ</title>
+  <title>アナグラム／チマタグラムクイズ</title>
   
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDSGM2M26N"></script>
@@ -23,23 +23,24 @@
 </head>
 <body>
 
-  <h2>✨ チマタグラムクイズ ✨</h2>
+  <h2>✨ アナグラム／チマタグラムクイズ ✨</h2>
 
   <!-- ルール説明エリア -->
   <div class="rule-box">
-    文字を並べ替えて指定されたジャンルの言葉にしてください。<br>
-    ただし <strong>余計な文字が1文字</strong> 含まれています。
+    文字を並べ替えて指定された言葉にしてください。<br>
+    ただしチマタグラムでは <strong>余計な文字が1文字</strong> 含まれています。
   </div>
 
   <div class="control-panel">
     <div class="control-row">
       <label class="control-group">
-        ジャンル:
+        問題セット:
         <select id="genreSelect">
-          <option value="data/non_genre.json">ノンジャンル</option>
-          <option value="data/pokemon_names.json">ポケモンの名前</option>
-          <option value="data/pokemon_moves.json">ポケモンの技</option>
-          <option value="data/pokemon_abilities.json">ポケモンの特性</option>
+          <option value="data/non_genre_anagram.json">ノンジャンル（アナグラム）</option>
+          <option value="data/non_genre.json">ノンジャンル（チマタグラム）</option>
+          <option value="data/pokemon_names.json">ポケモンの名前（チマタグラム）</option>
+          <option value="data/pokemon_moves.json">ポケモンの技（チマタグラム）</option>
+          <option value="data/pokemon_abilities.json">ポケモンの特性（チマタグラム）</option>
         </select>
       </label>
     </div>
@@ -62,7 +63,7 @@
     </h3>
     
     <div class="question-block">
-      <p><strong>ジャンル</strong> <span id="genreText">読み込み中...</span></p>
+      <p><strong>問題セット</strong> <span id="genreText">読み込み中...</span></p>
       <div class="q-text" id="questionText">読み込み中...</div>
       <p><strong>読み</strong> <span id="readingText">読み込み中...</span></p>
     </div>
@@ -73,7 +74,7 @@
 
     <div id="answerArea" class="hidden">
       <p><strong>答え</strong> <span id="answerText" class="ans-highlight"></span></p>
-      <p><strong>余計な1文字</strong> <span id="extraCharText" class="ans-highlight"></span></p>
+      <p id="extraCharArea"><strong>余計な1文字</strong> <span id="extraCharText" class="ans-highlight"></span></p>
     </div>
   </div>
 

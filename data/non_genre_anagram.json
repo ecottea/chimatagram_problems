@@ -1,0 +1,1339 @@
+[
+  {
+    "id": 1,
+    "genre": "アニソン",
+    "question": "無線LANでツイート",
+    "reading": "むせんらんでついーと",
+    "answer": "ムーンライト伝説"
+  },
+  {
+    "id": 2,
+    "genre": "酒",
+    "question": "ビビるエース",
+    "reading": "びびるえーす",
+    "answer": "ヱビスビール"
+  },
+  {
+    "id": 3,
+    "genre": "競走馬",
+    "question": "ロックマン.img",
+    "reading": "ろっくまんいめーじ",
+    "answer": "メジロマックイーン"
+  },
+  {
+    "id": 4,
+    "genre": "フォークシンガー",
+    "question": "釧路漂う",
+    "reading": "くしろただよう",
+    "answer": "吉田拓郎"
+  },
+  {
+    "id": 5,
+    "genre": "ボカロ曲",
+    "question": "脂取りだっる",
+    "reading": "あぶらとりだっる",
+    "answer": "ダブルラリアット"
+  },
+  {
+    "id": 6,
+    "genre": "像",
+    "question": "蛙がヒント",
+    "reading": "かえるがひんと",
+    "answer": "考える人"
+  },
+  {
+    "id": 7,
+    "genre": "情報工学",
+    "question": "清楚系描きたい",
+    "reading": "せいそけいかきたい",
+    "answer": "形態素解析"
+  },
+  {
+    "id": 8,
+    "genre": "J-POP",
+    "question": "痴女の奉仕",
+    "reading": "ちじょのほうし",
+    "answer": "地上の星"
+  },
+  {
+    "id": 9,
+    "genre": "政治家",
+    "question": "月夜と紅葉",
+    "reading": "つきよともみじ",
+    "answer": "辻元清美"
+  },
+  {
+    "id": 10,
+    "genre": "アスリート",
+    "question": "肩慣らしさ",
+    "reading": "かたならしさ",
+    "answer": "高梨沙羅"
+  },
+  {
+    "id": 11,
+    "genre": "アスリート",
+    "question": "うるさいトンボ",
+    "reading": "うるさいとんぼ",
+    "answer": "ウサインボルト"
+  },
+  {
+    "id": 12,
+    "genre": "クラシック音楽",
+    "question": "無地アイライナーはくねくねと",
+    "reading": "むじあいらいなーはくねくねと",
+    "answer": "アイネ・クライネ・ナハトムジーク"
+  },
+  {
+    "id": 13,
+    "genre": "日本地理",
+    "question": "修理待ちかい？",
+    "reading": "しゅうりまちかい",
+    "answer": "千島海流"
+  },
+  {
+    "id": 14,
+    "genre": "プロゴルファー",
+    "question": "若い漁師",
+    "reading": "わかいりょうし",
+    "answer": "石川遼"
+  },
+  {
+    "id": 15,
+    "genre": "ボカロ曲",
+    "question": "痛いし喘いどるん？",
+    "reading": "いたいしあえいどるん",
+    "answer": "アイドル新鋭隊"
+  },
+  {
+    "id": 16,
+    "genre": "企業",
+    "question": "兄さん詰んだっぽい",
+    "reading": "にいさんつんだっぽい",
+    "answer": "大日本印刷"
+  },
+  {
+    "id": 17,
+    "genre": "アプリ",
+    "question": "我慢いらん",
+    "reading": "がまんいらん",
+    "answer": "LINEマンガ"
+  },
+  {
+    "id": 18,
+    "genre": "漫画",
+    "question": "サボテン完売",
+    "reading": "さぼてんかんばい",
+    "answer": "天才バカボン"
+  },
+  {
+    "id": 19,
+    "genre": "コンピュータ",
+    "question": "スクーター邪魔ね",
+    "reading": "すくーたーじゃまね",
+    "answer": "タスクマネージャー"
+  },
+  {
+    "id": 20,
+    "genre": "日本史",
+    "question": "ウホ，性感帯",
+    "reading": "うほせいかんたい",
+    "answer": "大政奉還"
+  },
+  {
+    "id": 21,
+    "genre": "外国の地名",
+    "question": "討論が前",
+    "reading": "とうろんがまえ",
+    "answer": "エロマンガ島"
+  },
+  {
+    "id": 22,
+    "genre": "アスリート",
+    "question": "恨みの日",
+    "reading": "うらみのひ",
+    "answer": "平野美宇"
+  },
+  {
+    "id": 23,
+    "genre": "絵画",
+    "question": "秘伝の衣装",
+    "reading": "ひでんのいしょう",
+    "answer": "印象・日の出"
+  },
+  {
+    "id": 24,
+    "genre": "四字熟語",
+    "question": "謹製痛バ",
+    "reading": "きんせいいたば",
+    "answer": "大器晩成"
+  },
+  {
+    "id": 25,
+    "genre": "ラノベ・アニメの主人公",
+    "question": "うーん、ずるい暗号",
+    "reading": "うーんずるいあんごう",
+    "answer": "アインズウールゴウン"
+  },
+  {
+    "id": 26,
+    "genre": "ラノベ・アニメ",
+    "question": "歌唱のシンクロ",
+    "reading": "かしょうのしんくろ",
+    "answer": "黒の召喚士"
+  },
+  {
+    "id": 27,
+    "genre": "クラシック音楽",
+    "question": "気球壊れるのー！",
+    "reading": "ききゅうこわれるのー",
+    "answer": "ワルキューレの騎行"
+  },
+  {
+    "id": 28,
+    "genre": "都道府県",
+    "question": "舞茸さん",
+    "reading": "まいたけさん",
+    "answer": "埼玉県"
+  },
+  {
+    "id": 29,
+    "genre": "理科",
+    "question": "茄子バーガー",
+    "reading": "なすばーがー",
+    "answer": "ガスバーナー"
+  },
+  {
+    "id": 30,
+    "genre": "東方Project",
+    "question": "「うい先生？」「そうだよ」",
+    "reading": "ういせんせいそうだよ",
+    "answer": "妖精大戦争"
+  },
+  {
+    "id": 31,
+    "genre": "日本史",
+    "question": "魔獣変身",
+    "reading": "まじゅうへんしん",
+    "answer": "満州事変"
+  },
+  {
+    "id": 32,
+    "genre": "企業",
+    "question": "整数は好き",
+    "reading": "せいすうはすき",
+    "answer": "積水ハウス"
+  },
+  {
+    "id": 33,
+    "genre": "タレント",
+    "question": "甘い裁き",
+    "reading": "あまいさばき",
+    "answer": "相葉雅紀"
+  },
+  {
+    "id": 34,
+    "genre": "故事成語",
+    "question": "噴火うんざり",
+    "reading": "ふんかうんざり",
+    "answer": "風林火山"
+  },
+  {
+    "id": 35,
+    "genre": "日本史",
+    "question": "3合完食",
+    "reading": "さんごうかんしょく",
+    "answer": "三国干渉"
+  },
+  {
+    "id": 36,
+    "genre": "漫画・アニメ",
+    "question": "四連着信",
+    "reading": "よんれんちゃくしん",
+    "answer": "クレヨンしんちゃん"
+  },
+  {
+    "id": 37,
+    "genre": "懐メロ",
+    "question": "う…ロコン麻痺",
+    "reading": "うろこんまひ",
+    "answer": "浪漫飛行"
+  },
+  {
+    "id": 38,
+    "genre": "進撃の巨人",
+    "question": "俺はアントニー",
+    "reading": "おれはあんとにー",
+    "answer": "アニ・レオンハート"
+  },
+  {
+    "id": 39,
+    "genre": "スキージャンプ選手",
+    "question": "朝の怪力",
+    "reading": "あさのかいりき",
+    "answer": "葛西紀明"
+  },
+  {
+    "id": 40,
+    "genre": "数学",
+    "question": "宇治に来てほしい",
+    "reading": "うじにきてほしい",
+    "answer": "二次方程式"
+  },
+  {
+    "id": 41,
+    "genre": "漢方薬",
+    "question": "関東っ子",
+    "reading": "かんとうっこ",
+    "answer": "葛根湯"
+  },
+  {
+    "id": 42,
+    "genre": "四字熟語",
+    "question": "チン凸所望",
+    "reading": "ちんとつしょもう",
+    "answer": "猪突猛進"
+  },
+  {
+    "id": 43,
+    "genre": "歌手",
+    "question": "この水好き",
+    "reading": "このみずすき",
+    "answer": "鈴木このみ"
+  },
+  {
+    "id": 44,
+    "genre": "漫画家",
+    "question": "良い寿司だ",
+    "reading": "いいすしだ",
+    "answer": "石田スイ"
+  },
+  {
+    "id": 45,
+    "genre": "漫画・アニメの主人公",
+    "question": "貯金借り、打つ",
+    "reading": "ちょきんかりうつ",
+    "answer": "両津勘吉"
+  },
+  {
+    "id": 46,
+    "genre": "小説",
+    "question": "帽子の色",
+    "reading": "ぼうしのいろ",
+    "answer": "路傍の石"
+  },
+  {
+    "id": 47,
+    "genre": "特撮",
+    "question": "裏イトマルなんだ",
+    "reading": "うらいとまるなんだ",
+    "answer": "ウルトラマンダイナ"
+  },
+  {
+    "id": 48,
+    "genre": "歴史上の人物",
+    "question": "新衣装だよ",
+    "reading": "しんいしょうだよ",
+    "answer": "吉田松陰"
+  },
+  {
+    "id": 49,
+    "genre": "ことわざ",
+    "question": "妹らしくだと？",
+    "reading": "いもうとらしくだと",
+    "answer": "灯台下暗し"
+  },
+  {
+    "id": 50,
+    "genre": "観光地",
+    "question": "苦戦、3乙",
+    "reading": "くせんさんおつ",
+    "answer": "草津温泉"
+  },
+  {
+    "id": 51,
+    "genre": "商品",
+    "question": "修了式",
+    "reading": "しゅうりょうしき",
+    "answer": "消臭力"
+  },
+  {
+    "id": 52,
+    "genre": "天体物理学",
+    "question": "自身の成長へ",
+    "reading": "じしんのせいちょうへ",
+    "answer": "事象の地平線"
+  },
+  {
+    "id": 53,
+    "genre": "童謡",
+    "question": "顔焼くの我慢",
+    "reading": "かおやくのがまん",
+    "answer": "山の音楽家"
+  },
+  {
+    "id": 54,
+    "genre": "現象",
+    "question": "昼の巴戦",
+    "reading": "ひるのともえせん",
+    "answer": "セントエルモの火"
+  },
+  {
+    "id": 55,
+    "genre": "チェーン店",
+    "question": "助手くん動転",
+    "reading": "じょしゅくんどうてん",
+    "answer": "ジュンク堂書店"
+  },
+  {
+    "id": 56,
+    "genre": "日本史",
+    "question": "マイクラ火事だ",
+    "reading": "まいくらかじだ",
+    "answer": "鎌倉時代"
+  },
+  {
+    "id": 57,
+    "genre": "VTuber",
+    "question": "魔法輪唱",
+    "reading": "まほうりんしょう",
+    "answer": "宝鐘マリン"
+  },
+  {
+    "id": 58,
+    "genre": "都道府県",
+    "question": "ケンモ煽り",
+    "reading": "けんもあおり",
+    "answer": "青森県"
+  },
+  {
+    "id": 59,
+    "genre": "男性アイドル",
+    "question": "蚊、どうにかしたい",
+    "reading": "かどうにかしたい",
+    "answer": "二階堂高嗣"
+  },
+  {
+    "id": 60,
+    "genre": "映画",
+    "question": "微課金魔族",
+    "reading": "びかきんまぞく",
+    "answer": "万引き家族"
+  },
+  {
+    "id": 61,
+    "genre": "タレント",
+    "question": "鼻曲がるね",
+    "reading": "はなまがるね",
+    "answer": "長濱ねる"
+  },
+  {
+    "id": 62,
+    "genre": "VTuber",
+    "question": "推しはルリリ",
+    "reading": "おしはるりり",
+    "answer": "栞葉るり"
+  },
+  {
+    "id": 63,
+    "genre": "童謡",
+    "question": "根っこタフじゃん",
+    "reading": "ねっこたふじゃん",
+    "answer": "猫踏んじゃった"
+  },
+  {
+    "id": 64,
+    "genre": "絵画",
+    "question": "再三の誤BAN",
+    "reading": "さいさんのごばん",
+    "answer": "最後の晩餐"
+  },
+  {
+    "id": 65,
+    "genre": "ドラマ",
+    "question": "箱要るよ",
+    "reading": "はこいるよ",
+    "answer": "春よ、来い"
+  },
+  {
+    "id": 66,
+    "genre": "四字熟語",
+    "question": ">>1に説教",
+    "reading": "いちにせっきょう",
+    "answer": "一石二鳥"
+  },
+  {
+    "id": 67,
+    "genre": "歴史上の人物",
+    "question": "民度最高",
+    "reading": "みんどさいこう",
+    "answer": "近藤勇"
+  },
+  {
+    "id": 68,
+    "genre": "お笑いタレント",
+    "question": "大仁田の裁判",
+    "reading": "おおにたのさいばん",
+    "answer": "おばたのお兄さん"
+  },
+  {
+    "id": 69,
+    "genre": "日本史",
+    "question": "良いセレクト",
+    "reading": "いいせれくと",
+    "answer": "徳政令"
+  },
+  {
+    "id": 70,
+    "genre": "歴史的建造物",
+    "question": "これが草案か",
+    "reading": "これがそうあんか",
+    "answer": "赤レンガ倉庫"
+  },
+  {
+    "id": 71,
+    "genre": "料理",
+    "question": "カメラハンター",
+    "reading": "かめらはんたー",
+    "answer": "博多ラーメン"
+  },
+  {
+    "id": 72,
+    "genre": "J-POP",
+    "question": "良い箱付いてるがな",
+    "reading": "いいはこついてるがな",
+    "answer": "初恋が泣いている"
+  },
+  {
+    "id": 73,
+    "genre": "タレント",
+    "question": "嫌えば威嚇さ",
+    "reading": "きらえばいかくさ",
+    "answer": "榊原郁恵"
+  },
+  {
+    "id": 74,
+    "genre": "ゲーム",
+    "question": "アイスマタドール",
+    "reading": "あいすまたどーる",
+    "answer": "アイドルマスター"
+  },
+  {
+    "id": 75,
+    "genre": "世界史",
+    "question": "苦行3回目",
+    "reading": "くぎょうさんかいめ",
+    "answer": "産業革命"
+  },
+  {
+    "id": 76,
+    "genre": "プログラミング",
+    "question": "下品矯正",
+    "reading": "げひんきょうせい",
+    "answer": "正規表現"
+  },
+  {
+    "id": 77,
+    "genre": "楽曲",
+    "question": "ちんちんバキバキ",
+    "reading": "ちんちんばきばき",
+    "answer": "チキチキバンバン"
+  },
+  {
+    "id": 78,
+    "genre": "政治",
+    "question": "例題批評",
+    "reading": "れいだいひひょう",
+    "answer": "比例代表"
+  },
+  {
+    "id": 79,
+    "genre": "世界地理",
+    "question": "妖精居た",
+    "reading": "ようせいいた",
+    "answer": "大西洋"
+  },
+  {
+    "id": 80,
+    "genre": "四字熟語",
+    "question": "嘘常識",
+    "reading": "うそじょうしき",
+    "answer": "時期尚早"
+  },
+  {
+    "id": 81,
+    "genre": "お笑いタレント",
+    "question": "野次馬検知",
+    "reading": "やじうまけんち",
+    "answer": "山内健司"
+  },
+  {
+    "id": 82,
+    "genre": "江戸時代の人物",
+    "question": "マサラの大仏だ",
+    "reading": "まさらのだいぶつだ",
+    "answer": "松平定信"
+  },
+  {
+    "id": 83,
+    "genre": "お笑いタレント",
+    "question": "ワイ、さきいかバクバク",
+    "reading": "わいさきいかばくばく",
+    "answer": "バイク川崎バイク"
+  },
+  {
+    "id": 84,
+    "genre": "歴史上の人物",
+    "question": "早よカキコしたれ",
+    "reading": "はよかきこしたれ",
+    "answer": "高橋是清"
+  },
+  {
+    "id": 85,
+    "genre": "お笑いタレント",
+    "question": "ヤングマンに賭けた",
+    "reading": "やんぐまんにかけた",
+    "answer": "カンニング竹山"
+  },
+  {
+    "id": 86,
+    "genre": "ゲーム・アニメ",
+    "question": "ムウマ♀",
+    "reading": "むうまめす",
+    "answer": "ウマ娘"
+  },
+  {
+    "id": 87,
+    "genre": "情報工学",
+    "question": "今日が収穫",
+    "reading": "きょうがしゅうかく",
+    "answer": "強化学習"
+  },
+  {
+    "id": 88,
+    "genre": "日本史",
+    "question": "小屋、熊居た",
+    "reading": "こやくまいた",
+    "answer": "邪馬台国"
+  },
+  {
+    "id": 89,
+    "genre": "チェーン店",
+    "question": "どせいせん昇天",
+    "reading": "どせいさんしょうてん",
+    "answer": "三省堂書店"
+  },
+  {
+    "id": 90,
+    "genre": "お笑いタレント",
+    "question": "しばき合いしたか",
+    "reading": "しばきあいしたか",
+    "answer": "石橋貴明"
+  },
+  {
+    "id": 91,
+    "genre": "歴史的建造物",
+    "question": "麻生が艦これ",
+    "reading": "あそうがかんこれ",
+    "answer": "赤レンガ倉庫"
+  },
+  {
+    "id": 92,
+    "genre": "J-POP",
+    "question": "うな重は高いの…",
+    "reading": "うなじゅうはたかいの",
+    "answer": "怪獣の花唄"
+  },
+  {
+    "id": 93,
+    "genre": "ことわざ",
+    "question": "ロコン勝利よ",
+    "reading": "ろこんしょうりよ",
+    "answer": "論より証拠"
+  },
+  {
+    "id": 94,
+    "genre": "歴史上の人物",
+    "question": "臭すぎた歯間",
+    "reading": "くさすぎたしかん",
+    "answer": "高杉晋作"
+  },
+  {
+    "id": 95,
+    "genre": "哲学者",
+    "question": "Nとイルカマン",
+    "reading": "えぬといるかまん",
+    "answer": "イマヌエル・カント"
+  },
+  {
+    "id": 96,
+    "genre": "日本の地名",
+    "question": "わ！白い粉！",
+    "reading": "わしろいこな",
+    "answer": "猪苗代湖"
+  },
+  {
+    "id": 97,
+    "genre": "光学",
+    "question": "加湿成功",
+    "reading": "かしつせいこう",
+    "answer": "回折格子"
+  },
+  {
+    "id": 98,
+    "genre": "お笑いコンビ",
+    "question": "湿り気があった愛",
+    "reading": "しめりけがあったあい",
+    "answer": "雨上がり決死隊"
+  },
+  {
+    "id": 99,
+    "genre": "VTuber",
+    "question": "オイタするフリーレン",
+    "reading": "おいたするふりーれん",
+    "answer": "フレン・E・ルスタリオ"
+  },
+  {
+    "id": 100,
+    "genre": "歴史",
+    "question": "養成大変そう",
+    "reading": "ようせいたいへんそう",
+    "answer": "太平洋戦争"
+  },
+  {
+    "id": 101,
+    "genre": "歴史上の人物",
+    "question": "辛い白菜",
+    "reading": "からいはくさい",
+    "answer": "井原西鶴"
+  },
+  {
+    "id": 102,
+    "genre": "数学",
+    "question": "抗菌した",
+    "reading": "こうきんした",
+    "answer": "単項式"
+  },
+  {
+    "id": 103,
+    "genre": "外国の地名",
+    "question": "歯間に病気",
+    "reading": "しかんにびょうき",
+    "answer": "ビキニ環礁"
+  },
+  {
+    "id": 104,
+    "genre": "四字熟語",
+    "question": "賞金付けて？",
+    "reading": "しょうきんつけて",
+    "answer": "起承転結"
+  },
+  {
+    "id": 105,
+    "genre": "棋士",
+    "question": "並べ飽きたわ",
+    "reading": "ならべあきたわ",
+    "answer": "渡辺明"
+  },
+  {
+    "id": 106,
+    "genre": "小説",
+    "question": "呪い防止",
+    "reading": "のろいぼうし",
+    "answer": "路傍の石"
+  },
+  {
+    "id": 107,
+    "genre": "テレビ番組",
+    "question": "番犬に気づく",
+    "reading": "ばんけんにきづく",
+    "answer": "筋肉番付"
+  },
+  {
+    "id": 108,
+    "genre": "歌手",
+    "question": "仕事管理",
+    "reading": "しごとかんり",
+    "answer": "香取慎吾"
+  },
+  {
+    "id": 109,
+    "genre": "歴史上の人物",
+    "question": "サムネ手間だ",
+    "reading": "さむねてまだ",
+    "answer": "伊達政宗"
+  },
+  {
+    "id": 110,
+    "genre": "ブランド",
+    "question": "怯む少林寺",
+    "reading": "ひるむしょうりんじ",
+    "answer": "無印良品"
+  },
+  {
+    "id": 111,
+    "genre": "行事",
+    "question": "SEIKIN支持",
+    "reading": "せいきんしじ",
+    "answer": "成人式"
+  },
+  {
+    "id": 112,
+    "genre": "食材",
+    "question": "彼怖いんだい",
+    "reading": "かれこわいんだい",
+    "answer": "かいわれ大根"
+  },
+  {
+    "id": 113,
+    "genre": "花",
+    "question": "家出するわー",
+    "reading": "いえでするわー",
+    "answer": "エーデルワイス"
+  },
+  {
+    "id": 114,
+    "genre": "童謡",
+    "question": "親の描く漫画",
+    "reading": "おやのかくまんが",
+    "answer": "山の音楽家"
+  },
+  {
+    "id": 115,
+    "genre": "植物",
+    "question": "今メン限",
+    "reading": "いまめんげん",
+    "answer": "インゲンマメ"
+  },
+  {
+    "id": 116,
+    "genre": "お笑いタレント",
+    "question": "山に監禁、泣く",
+    "reading": "やまにかんきんなく",
+    "answer": "なかやまきんに君"
+  },
+  {
+    "id": 117,
+    "genre": "サザエさん",
+    "question": "ヘソの意味、無い",
+    "reading": "へそのいみない",
+    "answer": "磯野波平"
+  },
+  {
+    "id": 118,
+    "genre": "とある魔術の禁書目録",
+    "question": "8度も掴み取る",
+    "reading": "はちどもつかみとる",
+    "answer": "土御門元春"
+  },
+  {
+    "id": 119,
+    "genre": "天文",
+    "question": "破格の三塁打",
+    "reading": "はかくのさんるいだ",
+    "answer": "春の大三角"
+  },
+  {
+    "id": 120,
+    "genre": "ゲーム",
+    "question": "メイン画見せて",
+    "reading": "めいんがみせて",
+    "answer": "女神転生"
+  },
+  {
+    "id": 121,
+    "genre": "四字熟語",
+    "question": "記名推奨",
+    "reading": "きめいすいしょう",
+    "answer": "明鏡止水"
+  },
+  {
+    "id": 122,
+    "genre": "VTuber",
+    "question": "あなたネカマ？",
+    "reading": "あなたねかま",
+    "answer": "天音かなた"
+  },
+  {
+    "id": 123,
+    "genre": "日本地理",
+    "question": "飛べる傭兵隊",
+    "reading": "とべるようへいたい",
+    "answer": "太平洋ベルト"
+  },
+  {
+    "id": 124,
+    "genre": "映画",
+    "question": "花見の木",
+    "reading": "はなみのき",
+    "answer": "君の名は。"
+  },
+  {
+    "id": 125,
+    "genre": "懐メロ",
+    "question": "順位制だし",
+    "reading": "じゅんいせいだし",
+    "answer": "青春時代"
+  },
+  {
+    "id": 126,
+    "genre": "グラップラー刃牙",
+    "question": "至高の将棋",
+    "reading": "しこうのしょうぎ",
+    "answer": "鎬昂昇"
+  },
+  {
+    "id": 127,
+    "genre": "天文学",
+    "question": "中学生来たわ",
+    "reading": "ちゅうがくせいきたわ",
+    "answer": "地球型惑星"
+  },
+  {
+    "id": 128,
+    "genre": "ブランド",
+    "question": "回覧板来る",
+    "reading": "かいらんばんくる",
+    "answer": "カルバン・クライン"
+  },
+  {
+    "id": 129,
+    "genre": "プログラミング",
+    "question": "パン粉要る",
+    "reading": "ぱんこいる",
+    "answer": "コンパイル"
+  },
+  {
+    "id": 130,
+    "genre": "ゲーム",
+    "question": "吸い込んだ",
+    "reading": "すいこんだ",
+    "answer": "NKODICE"
+  },
+  {
+    "id": 131,
+    "genre": "元素",
+    "question": "逃げるムウマ",
+    "reading": "にげるむうま",
+    "answer": "ゲルマニウム"
+  },
+  {
+    "id": 132,
+    "genre": "日本の地名",
+    "question": "ああ理系か",
+    "reading": "あありけいか",
+    "answer": "有明海"
+  },
+  {
+    "id": 133,
+    "genre": "VTuber",
+    "question": "溢れぬらしい",
+    "reading": "あふれぬらしい",
+    "answer": "不知火フレア"
+  },
+  {
+    "id": 134,
+    "genre": "テレビ番組",
+    "question": "胃液の製造",
+    "reading": "いえきのせいぞう",
+    "answer": "映像の世紀"
+  },
+  {
+    "id": 135,
+    "genre": "映画",
+    "question": "噴火だ、パーン",
+    "reading": "ふんかだぱーん",
+    "answer": "カンフーパンダ"
+  },
+  {
+    "id": 136,
+    "genre": "漫画・映画",
+    "question": "ウミトリオのイカサマ",
+    "reading": "うみとりおのいかさま",
+    "answer": "神さまの言うとおり"
+  },
+  {
+    "id": 137,
+    "genre": "日本地理",
+    "question": "げ、先端臭い",
+    "reading": "げせんたんくさい",
+    "answer": "減反政策"
+  },
+  {
+    "id": 138,
+    "genre": "映画",
+    "question": "防塵用",
+    "reading": "ぼうじんよう",
+    "answer": "用心棒"
+  },
+  {
+    "id": 139,
+    "genre": "観光地",
+    "question": "皆魔道士かい？",
+    "reading": "みなまどうしかい",
+    "answer": "しまなみ海道"
+  },
+  {
+    "id": 140,
+    "genre": "物理学者",
+    "question": "もちろん該当なし",
+    "reading": "もちろんがいとうなし",
+    "answer": "朝永振一郎"
+  },
+  {
+    "id": 141,
+    "genre": "レジャー施設",
+    "question": "キッズとサーカス",
+    "reading": "きっずとさーかす",
+    "answer": "鈴鹿サーキット"
+  },
+  {
+    "id": 142,
+    "genre": "都道府県",
+    "question": "LINE訊けば？",
+    "reading": "らいんきけば",
+    "answer": "茨城県"
+  },
+  {
+    "id": 143,
+    "genre": "アニソン",
+    "question": "煽りしないの",
+    "reading": "あおりしないの",
+    "answer": "アイのシナリオ"
+  },
+  {
+    "id": 144,
+    "genre": "政治家",
+    "question": "またもや徒労",
+    "reading": "またもやとろう",
+    "answer": "山本太郎"
+  },
+  {
+    "id": 145,
+    "genre": "ラノベ・アニメ",
+    "question": "師匠の貫禄",
+    "reading": "ししょうのかんろく",
+    "answer": "黒の召喚士"
+  },
+  {
+    "id": 146,
+    "genre": "ラジオ番組",
+    "question": "夫、インポになーる",
+    "reading": "おっといんぽになーる",
+    "answer": "オールナイトニッポン"
+  },
+  {
+    "id": 147,
+    "genre": "日本の地名",
+    "question": "どうしましょ",
+    "reading": "どうしましょ",
+    "answer": "小豆島"
+  },
+  {
+    "id": 148,
+    "genre": "植物",
+    "question": "それ運ゲ",
+    "reading": "それうんげ",
+    "answer": "レンゲソウ"
+  },
+  {
+    "id": 149,
+    "genre": "ゲーム",
+    "question": "まだ鞠高いし",
+    "reading": "まだまりたかいし",
+    "answer": "塊魂"
+  },
+  {
+    "id": 150,
+    "genre": "四字熟語",
+    "question": "贅沢神社",
+    "reading": "ぜいたくじんじゃ",
+    "answer": "泰然自若"
+  },
+  {
+    "id": 151,
+    "genre": "ソフトウェア",
+    "question": "ボロいカード",
+    "reading": "ぼろいかーど",
+    "answer": "ゔぉーかろいど"
+  },
+  {
+    "id": 152,
+    "genre": "日本史",
+    "question": "カカシの引退",
+    "reading": "かかしのいんたい",
+    "answer": "大化の改新"
+  },
+  {
+    "id": 153,
+    "genre": "お笑いタレント",
+    "question": "文字の無い鳥",
+    "reading": "もんじのないとり",
+    "answer": "陣内智則"
+  },
+  {
+    "id": 154,
+    "genre": "歌手",
+    "question": "ゴミ拾う",
+    "reading": "ごみひろう",
+    "answer": "郷ひろみ"
+  },
+  {
+    "id": 155,
+    "genre": "作曲家",
+    "question": "個人行動",
+    "reading": "こじんこうどう",
+    "answer": "近藤浩治"
+  },
+  {
+    "id": 156,
+    "genre": "タレント",
+    "question": "さきいか食らえば？",
+    "reading": "さきいかくらえば",
+    "answer": "榊原郁恵"
+  },
+  {
+    "id": 157,
+    "genre": "観光地",
+    "question": "3度も王手",
+    "reading": "さんどもおうて",
+    "answer": "表参道"
+  },
+  {
+    "id": 158,
+    "genre": "お笑いタレント",
+    "question": "絵の公開",
+    "reading": "えのこうかい",
+    "answer": "狩野英孝"
+  },
+  {
+    "id": 159,
+    "genre": "チェーン店",
+    "question": "新テニの曲や！",
+    "reading": "しんてにのきょくや",
+    "answer": "紀伊國屋書店"
+  },
+  {
+    "id": 160,
+    "genre": "数学者",
+    "question": "ハート折れるライオン",
+    "reading": "はーとおれるらいおん",
+    "answer": "レオンハルト・オイラー"
+  },
+  {
+    "id": 161,
+    "genre": "アーティスト",
+    "question": "キモリの絵画",
+    "reading": "きもりのかいが",
+    "answer": "いきものがかり"
+  },
+  {
+    "id": 162,
+    "genre": "寺社",
+    "question": "ぐう聖人",
+    "reading": "ぐうせいじん",
+    "answer": "伊勢神宮"
+  },
+  {
+    "id": 163,
+    "genre": "俳優",
+    "question": "北広島",
+    "reading": "きたひろしま",
+    "answer": "玉木宏"
+  },
+  {
+    "id": 164,
+    "genre": "故事成語",
+    "question": "ついでに図をくれんか？",
+    "reading": "ついでにずをくれんか",
+    "answer": "瓜田に履を納れず"
+  },
+  {
+    "id": 165,
+    "genre": "怪異",
+    "question": "ケチな奥さん",
+    "reading": "けちなおくさん",
+    "answer": "口裂け女"
+  },
+  {
+    "id": 166,
+    "genre": "企業",
+    "question": "ウニ天丼",
+    "reading": "うにてんどん",
+    "answer": "任天堂"
+  },
+  {
+    "id": 167,
+    "genre": "四字熟語",
+    "question": "画伯居た、草",
+    "reading": "がはくいたくさ",
+    "answer": "博学多才"
+  },
+  {
+    "id": 168,
+    "genre": "童謡",
+    "question": "吸い物、冷めへんかい？",
+    "reading": "すいものさめへんかい",
+    "answer": "かもめの水兵さん"
+  },
+  {
+    "id": 169,
+    "genre": "日本史",
+    "question": "自明因子",
+    "reading": "じめいいんし",
+    "answer": "明治維新"
+  },
+  {
+    "id": 170,
+    "genre": "ラノベ",
+    "question": "お皿入りうまトマ",
+    "reading": "おさらいりうまとま",
+    "answer": "魔王様、リトライ！"
+  },
+  {
+    "id": 171,
+    "genre": "日本地理",
+    "question": "龍舞し、勝つ",
+    "reading": "りゅうまいしかつ",
+    "answer": "対馬海流"
+  },
+  {
+    "id": 172,
+    "genre": "漫画・アニメ",
+    "question": "禁書の保持",
+    "reading": "きんしょのほじ",
+    "answer": "巨人の星"
+  },
+  {
+    "id": 173,
+    "genre": "懐メロ",
+    "question": "なんも抵抗ないし",
+    "reading": "なんもていこうないし",
+    "answer": "もう恋なんてしない"
+  },
+  {
+    "id": 174,
+    "genre": "童話",
+    "question": "参加は辞さない",
+    "reading": "さんかはじさない",
+    "answer": "花咲かじいさん"
+  },
+  {
+    "id": 175,
+    "genre": "アニソン",
+    "question": "加工製品",
+    "reading": "かこうせいひん",
+    "answer": "星間飛行"
+  },
+  {
+    "id": 176,
+    "genre": "飲料",
+    "question": "トッポすり替え",
+    "reading": "とっぽすりかえ",
+    "answer": "ポカリスエット"
+  },
+  {
+    "id": 177,
+    "genre": "天文",
+    "question": "今日の現実",
+    "reading": "きょうのげんじつ",
+    "answer": "上弦の月"
+  },
+  {
+    "id": 178,
+    "genre": "お笑いタレント",
+    "question": "Mayuは歌うだろ",
+    "reading": "まゆはうたうだろ",
+    "answer": "濱田祐太郎"
+  },
+  {
+    "id": 179,
+    "genre": "グラップラー刃牙",
+    "question": "舞うとバトン",
+    "reading": "まうとばとん",
+    "answer": "マウント斗羽"
+  },
+  {
+    "id": 180,
+    "genre": "日本の地名",
+    "question": "ウッウごと捕れ",
+    "reading": "うっうごととれ",
+    "answer": "五島列島"
+  },
+  {
+    "id": 181,
+    "genre": "力学",
+    "question": "うん？どしたん？",
+    "reading": "うんどしたん",
+    "answer": "単振動"
+  },
+  {
+    "id": 182,
+    "genre": "コメディアン",
+    "question": "蹴りやすい課長",
+    "reading": "けりやすいかちょう",
+    "answer": "いかりや長介"
+  },
+  {
+    "id": 183,
+    "genre": "アニソン",
+    "question": "冷えたままである",
+    "reading": "ひえたままである",
+    "answer": "またあえる日まで"
+  },
+  {
+    "id": 184,
+    "genre": "VTuber",
+    "question": "筒，鉛色",
+    "reading": "つつなまりいろ",
+    "answer": "夏色まつり"
+  },
+  {
+    "id": 185,
+    "genre": "四字熟語",
+    "question": "工場保護区",
+    "reading": "こうじょうほごく",
+    "answer": "五穀豊穣"
+  },
+  {
+    "id": 186,
+    "genre": "女優",
+    "question": "白上も司会",
+    "reading": "しらかみもしかい",
+    "answer": "上白石萌歌"
+  },
+  {
+    "id": 187,
+    "genre": "グラップラー刃牙",
+    "question": "やる夫は仲間",
+    "reading": "やるおはなかま",
+    "answer": "花山薫"
+  },
+  {
+    "id": 188,
+    "genre": "国",
+    "question": "しんどい姉",
+    "reading": "しんどいあね",
+    "answer": "インドネシア"
+  },
+  {
+    "id": 189,
+    "genre": "生物",
+    "question": "トランプ君",
+    "reading": "とらんぷくん",
+    "answer": "プランクトン"
+  },
+  {
+    "id": 190,
+    "genre": "四字熟語",
+    "question": "天然試料",
+    "reading": "てんねんしりょう",
+    "answer": "輪廻転生"
+  },
+  {
+    "id": 191,
+    "genre": "ボカロ曲",
+    "question": "対抗形ですよ",
+    "reading": "たいこうけいですよ",
+    "answer": "太陽系デスコ"
+  }
+]

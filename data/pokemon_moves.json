@@ -8042,13 +8042,21 @@
   {
     "id": 1006,
     "genre": "ポケモンの技",
+    "question": "来季脱げ",
+    "reading": "らいきぬげ",
+    "answer": "らいげき",
+    "extraChar": "ぬ"
+  },
+  {
+    "id": 1007,
+    "genre": "ポケモンの技",
     "question": "邪だね",
     "reading": "よこしまだね",
     "answer": "ねこだまし",
     "extraChar": "よ"
   },
   {
-    "id": 1007,
+    "id": 1008,
     "genre": "ポケモンの技",
     "question": "反撃です",
     "reading": "はんげきです",
@@ -8056,7 +8064,7 @@
     "extraChar": "す"
   },
   {
-    "id": 1008,
+    "id": 1009,
     "genre": "ポケモンの技",
     "question": "一流の武器",
     "reading": "いちりゅうのぶき",
@@ -8064,7 +8072,7 @@
     "extraChar": "ち"
   },
   {
-    "id": 1009,
+    "id": 1010,
     "genre": "ポケモンの技",
     "question": "破壊への輪舞曲",
     "reading": "はかいへのろんど",
@@ -8072,7 +8080,7 @@
     "extraChar": "へ"
   },
   {
-    "id": 1010,
+    "id": 1011,
     "genre": "ポケモンの技",
     "question": "税理士の監査",
     "reading": "ぜいりしのかんさ",
@@ -8080,7 +8088,7 @@
     "extraChar": "さ"
   },
   {
-    "id": 1011,
+    "id": 1012,
     "genre": "ポケモンの技",
     "question": "位相群です",
     "reading": "いそうぐんです",
@@ -8088,11 +8096,35 @@
     "extraChar": "そ"
   },
   {
-    "id": 1012,
+    "id": 1013,
     "genre": "ポケモンの技",
     "question": "紳士のステッキ",
     "reading": "しんしのすてっき",
     "answer": "てんしのキッス",
     "extraChar": "し"
+  },
+  {
+    "id": 1014,
+    "genre": "ポケモンの技",
+    "question": "顔騎orセックス",
+    "reading": "がんきおあせっくす",
+    "answer": "がんせきアックス",
+    "extraChar": "お"
+  },
+  {
+    "id": 1015,
+    "genre": "ポケモンの技",
+    "question": "尻穴から味噌",
+    "reading": "しりあなからみそ",
+    "answer": "かみなりあらし",
+    "extraChar": "そ"
+  },
+  {
+    "id": 1016,
+    "genre": "ポケモンの技",
+    "question": "正解はうんこ",
+    "reading": "せいかいはうんこ",
+    "answer": "はかいこうせん",
+    "extraChar": "い"
   }
 ]

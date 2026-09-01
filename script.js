@@ -59,7 +59,15 @@ function showQuestion(index) {
   document.getElementById('readingText').textContent = q.reading;
   
   document.getElementById('answerText').textContent = q.answer || '-';
-  document.getElementById('extraCharText').textContent = q.extraChar;
+
+  // 問題セットがノンジャンル（アナグラム）のときは、「余計な一文字」を非表示にする
+  const extraCharArea = document.getElementById('extraCharArea');
+  if (currentGenrePath.includes('non_genre_anagram.json')) {
+    extraCharArea.style.display = 'none';
+  } else {
+    extraCharArea.style.display = 'block';
+    document.getElementById('extraCharText').textContent = q.extraChar || '-';
+  }
 
   document.getElementById('answerArea').classList.add('hidden');
   document.getElementById('problemInput').value = currentIndex + 1;
