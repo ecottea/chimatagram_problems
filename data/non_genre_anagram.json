@@ -135,7 +135,7 @@
   {
     "id": 20,
     "genre": "日本史",
-    "question": "ウホ，性感帯",
+    "question": "ウホ、性感帯",
     "reading": "うほせいかんたい",
     "answer": "大政奉還"
   },
@@ -1283,7 +1283,7 @@
   {
     "id": 184,
     "genre": "VTuber",
-    "question": "筒，鉛色",
+    "question": "筒、鉛色",
     "reading": "つつなまりいろ",
     "answer": "夏色まつり"
   },
@@ -1335,5 +1335,145 @@
     "question": "対抗形ですよ",
     "reading": "たいこうけいですよ",
     "answer": "太陽系デスコ"
+  },
+  {
+    "id": 192,
+    "genre": "イベント",
+    "question": "野獣語",
+    "reading": "やじゅうご",
+    "answer": "十五夜"
+  },
+  {
+    "id": 193,
+    "genre": "元宇宙飛行士",
+    "question": "赤いキムチ",
+    "reading": "あかいきむち",
+    "answer": "向井千秋"
+  },
+  {
+    "id": 194,
+    "genre": "パーティーゲーム",
+    "question": "和風ドール",
+    "reading": "わふうどーる",
+    "answer": "ワードウルフ"
+  },
+  {
+    "id": 195,
+    "genre": "イベント",
+    "question": "良い対策",
+    "reading": "いいたいさく",
+    "answer": "体育祭"
+  },
+  {
+    "id": 196,
+    "genre": "陶器",
+    "question": "白髪危機や",
+    "reading": "しらがききや",
+    "answer": "信楽焼"
+  },
+  {
+    "id": 197,
+    "genre": "宇宙戦艦ヤマト",
+    "question": "打開するん？",
+    "reading": "だかいするん",
+    "answer": "イスカンダル"
+  },
+  {
+    "id": 198,
+    "genre": "お笑いコンビ",
+    "question": "関空行きだ",
+    "reading": "かんくういきだ",
+    "answer": "空気階段"
+  },
+  {
+    "id": 199,
+    "genre": "風物詩",
+    "question": "ファイル見せな",
+    "reading": "ふぁいるみせな",
+    "answer": "セミファイナル"
+  },
+  {
+    "id": 200,
+    "genre": "アイドル",
+    "question": "たゆたうマリモ",
+    "reading": "たゆたうまりも",
+    "answer": "玉森裕太"
+  },
+  {
+    "id": 201,
+    "genre": "書籍",
+    "question": "漢字に仮名とは",
+    "reading": "かんじにかなとは",
+    "answer": "時間とは何か"
+  },
+  {
+    "id": 202,
+    "genre": "アニソン",
+    "question": "うどん貰えたの",
+    "reading": "うどんもらえたの",
+    "answer": "ドラえもんのうた"
+  },
+  {
+    "id": 203,
+    "genre": "四字熟語",
+    "question": "超いらんけど",
+    "reading": "ちょういらんけど",
+    "answer": "捲土重来"
+  },
+  {
+    "id": 204,
+    "genre": "世界の地名",
+    "question": "あまり加工ない",
+    "reading": "あまりかこうない",
+    "answer": "マリアナ海溝"
+  },
+  {
+    "id": 205,
+    "genre": "世界史",
+    "question": "粧す服いらん",
+    "reading": "めかすふくいらん",
+    "answer": "フランス革命"
+  },
+  {
+    "id": 206,
+    "genre": "ゲーム・アニメ",
+    "question": "まず部員入れな",
+    "reading": "まずぶいんいれな",
+    "answer": "イナズマイレブン"
+  },
+  {
+    "id": 207,
+    "genre": "ゲーム",
+    "question": "キモリと飴キメる",
+    "reading": "きもりとあめきめる",
+    "answer": "ときめきメモリアル"
+  },
+  {
+    "id": 208,
+    "genre": "クラシック音楽",
+    "question": "髪型がそれのみ",
+    "reading": "かみがたがそれのみ",
+    "answer": "神々の黄昏"
+  },
+  {
+    "id": 209,
+    "genre": "日本史",
+    "question": "ダリ、金賞みたい",
+    "reading": "だりきんしょうみたい",
+    "answer": "キリシタン大名"
+  },
+  {
+    "id": 210,
+    "genre": "J-POP",
+    "question": "銃撃たないのは可？",
+    "reading": "じゅううたないのはか",
+    "answer": "怪獣の花唄"
+  },
+  {
+    "id": 211,
+    "genre": "生物学",
+    "question": "おサボり禁止で描く",
+    "reading": "おさぼりきんしでかく",
+    "answer": "デオキシリボ核酸"
   }
 ]
