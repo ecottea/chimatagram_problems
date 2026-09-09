@@ -5,7 +5,13 @@ let currentGenrePath = "";
 
 async function init() {
   const select = document.getElementById('genreSelect');
-  
+
+  // 前回選択したジャンルが保存されていれば復元する
+  const savedGenre = localStorage.getItem('chimatagram_last_genre');
+  if (savedGenre && Array.from(select.options).some(opt => opt.value === savedGenre)) {
+    select.value = savedGenre;
+  }
+
   select.addEventListener('change', (e) => {
     loadGenre(e.target.value);
   });
@@ -15,6 +21,9 @@ async function init() {
 
 async function loadGenre(filePath) {
   currentGenrePath = filePath;
+
+  // 選択したジャンルを保存
+  localStorage.setItem('chimatagram_last_genre', filePath);
 
   if (!cache[filePath]) {
     try {
